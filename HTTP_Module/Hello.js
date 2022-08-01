@@ -4,7 +4,7 @@ var http = require('http') //importing the http module from node
 //  first one is the request to the server and the second one is the response
 http.createServer(function (request, response){
     response.writeHead(200) //This is used to show the status code in the header
-    response.write('Hello user') //this is the response to be posted in the web page
+    response.write('Hello again user') //this is the response to be posted in the web page
     response.end() //closing the connection with the end command
 }).listen(8080)
 
